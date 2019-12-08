@@ -6,4 +6,9 @@ The other goal is to note down experiences and challenges during the UIKit to Sw
 ## Buluttan Screens To Convert
 
 ### The Main UI
-[Main UI]()
+![](https://github.com/5fcgdaeb/swift-weather-ui/blob/master/460x0w.png "Main UI")
+
+We can create 3 different SwiftUI views from this main UI:
+1. Top Header Navigation View
+2. Weather Current Conditions View
+3. Hourly / Daily Forecasts View
