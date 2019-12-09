@@ -14,14 +14,23 @@ struct CurrentObservationView: View {
 	let dailyMaxTemperature: Float = 5.2
 	let dailyMinTemperature: Float = -2.8
 	let feelsLikeText = "Feels like -3"
-	let currentConditionsText = "Feeling good with 2 degrees"
-	let currentConditionsImageName = "cloudy"
+	let currentConditionsText = "Slightly Windy"
+	let currentConditionsImageName = "MostlySunny"
 
 	var body: some View {
 
-		VStack {
-			Text(self.feelsLikeText)
-			Text(self.currentConditionsText)
+		HStack {
+			Image(self.currentConditionsImageName)
+				.resizable()
+			VStack {
+				HStack {
+					Text("\(self.currentTemperature)")
+					Text("\(self.dailyMaxTemperature)")
+					Text("/\(self.dailyMinTemperature)")
+				}
+				Text(self.feelsLikeText)
+				Text(self.currentConditionsText)
+			}
 		}
     }
 }
