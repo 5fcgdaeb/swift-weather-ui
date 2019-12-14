@@ -101,11 +101,9 @@
 			children = (
 				BB00490C239D33B400D404AD /* AppDelegate.swift */,
 				BB00490E239D33B400D404AD /* SceneDelegate.swift */,
-				BB004910239D33B400D404AD /* CurrentObservationView.swift */,
-				BB004912239D33B700D404AD /* Assets.xcassets */,
-				BB004917239D33B700D404AD /* LaunchScreen.storyboard */,
-				BB00491A239D33B700D404AD /* Info.plist */,
+				BBBA65C623A50B3C00CB0A81 /* Reusable Views */,
 				BB004914239D33B700D404AD /* Preview Content */,
+				BBBA65C723A50B4D00CB0A81 /* Config and Resources */,
 			);
 			path = "swift-weather-ui";
 			sourceTree = "<group>";
@@ -134,6 +132,24 @@
 				BB004930239D33B700D404AD /* Info.plist */,
 			);
 			path = "swift-weather-uiUITests";
+			sourceTree = "<group>";
+		};
+		BBBA65C623A50B3C00CB0A81 /* Reusable Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB004910239D33B400D404AD /* CurrentObservationView.swift */,
+			);
+			path = "Reusable Views";
+			sourceTree = "<group>";
+		};
+		BBBA65C723A50B4D00CB0A81 /* Config and Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB004912239D33B700D404AD /* Assets.xcassets */,
+				BB004917239D33B700D404AD /* LaunchScreen.storyboard */,
+				BB00491A239D33B700D404AD /* Info.plist */,
+			);
+			path = "Config and Resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,7 +454,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"swift-weather-ui/Preview Content\"";
 				DEVELOPMENT_TEAM = 4G38FW68S3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "swift-weather-ui/Info.plist";
+				INFOPLIST_FILE = "swift-weather-ui/Config and Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,7 +474,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"swift-weather-ui/Preview Content\"";
 				DEVELOPMENT_TEAM = 4G38FW68S3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "swift-weather-ui/Info.plist";
+				INFOPLIST_FILE = "swift-weather-ui/Config and Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
