@@ -42,6 +42,22 @@ struct CurrentObservationView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        CurrentObservationView()
+		Group {
+			
+			// Regular
+			CurrentObservationView()
+
+			// Dark
+			CurrentObservationView()
+				.environment(\.colorScheme, .dark)
+
+			// XS
+			CurrentObservationView()
+				.environment(\.sizeCategory, .extraSmall)
+
+			// XXL
+			CurrentObservationView()
+				.environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
+		}
     }
 }
