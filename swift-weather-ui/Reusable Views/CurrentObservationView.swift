@@ -47,6 +47,10 @@ struct ContentView_Previews: PreviewProvider {
 			// Regular
 			CurrentObservationView()
 
+			// Regular on SE
+			CurrentObservationView()
+				.previewDevice("iPhone SE")
+
 			// Dark
 			CurrentObservationView()
 				.environment(\.colorScheme, .dark)
