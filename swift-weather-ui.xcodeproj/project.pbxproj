@@ -15,6 +15,7 @@
 		BB004919239D33B700D404AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB004917239D33B700D404AD /* LaunchScreen.storyboard */; };
 		BB004924239D33B700D404AD /* swift_weather_uiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB004923239D33B700D404AD /* swift_weather_uiTests.swift */; };
 		BB00492F239D33B700D404AD /* swift_weather_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB00492E239D33B700D404AD /* swift_weather_uiUITests.swift */; };
+		BB46F6E223ACF03800927EE2 /* BuluttanBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB46F6E123ACF03800927EE2 /* BuluttanBackgroundView.swift */; };
 		BBC12D7923A78F110051415C /* DarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC12D7823A78F110051415C /* DarkView.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		BB00492A239D33B700D404AD /* swift-weather-uiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-weather-uiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB00492E239D33B700D404AD /* swift_weather_uiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_weather_uiUITests.swift; sourceTree = "<group>"; };
 		BB004930239D33B700D404AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB46F6E123ACF03800927EE2 /* BuluttanBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuluttanBackgroundView.swift; sourceTree = "<group>"; };
 		BBC12D7823A78F110051415C /* DarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,6 +142,7 @@
 		BBBA65C623A50B3C00CB0A81 /* Reusable Views */ = {
 			isa = PBXGroup;
 			children = (
+				BB46F6E123ACF03800927EE2 /* BuluttanBackgroundView.swift */,
 				BB004910239D33B400D404AD /* CurrentObservationView.swift */,
 			);
 			path = "Reusable Views";
@@ -298,6 +301,7 @@
 				BB00490F239D33B400D404AD /* SceneDelegate.swift in Sources */,
 				BBC12D7923A78F110051415C /* DarkView.swift in Sources */,
 				BB004911239D33B400D404AD /* CurrentObservationView.swift in Sources */,
+				BB46F6E223ACF03800927EE2 /* BuluttanBackgroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
