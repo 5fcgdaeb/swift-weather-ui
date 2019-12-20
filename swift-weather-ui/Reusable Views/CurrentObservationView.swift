@@ -22,8 +22,8 @@ struct CurrentObservationView: View {
 		HStack {
 			Image(self.currentConditionsImageName)
 				.resizable()
-				.scaledToFit()
-				.scaleEffect(0.6)
+				.frame(width: 100, height: 100)
+
 			VStack {
 				HStack {
 					Text(String(format: "%.f", self.currentTemperature))
@@ -32,6 +32,7 @@ struct CurrentObservationView: View {
 					Text(String(format: "%.f / %.f", self.dailyMaxTemperature, self.dailyMinTemperature))
 				}
 				Text(self.feelsLikeText)
+					.padding([.bottom], 5)
 				Text(self.currentConditionsText)
 			}
 		}
