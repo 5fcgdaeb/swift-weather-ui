@@ -26,12 +26,10 @@ struct CurrentObservationView: View {
 				.scaleEffect(0.6)
 			VStack {
 				HStack {
-					Text(String(format: "%.1f", self.currentTemperature))
+					Text(String(format: "%.f", self.currentTemperature))
 						.font(Font.largeTitle)
 						.fontWeight(.bold)
-					Text(String(format: "%.1f", self.dailyMaxTemperature))
-					Text("/")
-					Text(String(format: "%.1f", self.dailyMinTemperature))
+					Text(String(format: "%.f / %.f", self.dailyMaxTemperature, self.dailyMinTemperature))
 				}
 				Text(self.feelsLikeText)
 				Text(self.currentConditionsText)
