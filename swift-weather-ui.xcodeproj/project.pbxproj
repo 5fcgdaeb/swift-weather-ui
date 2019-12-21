@@ -16,6 +16,7 @@
 		BB004924239D33B700D404AD /* swift_weather_uiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB004923239D33B700D404AD /* swift_weather_uiTests.swift */; };
 		BB00492F239D33B700D404AD /* swift_weather_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB00492E239D33B700D404AD /* swift_weather_uiUITests.swift */; };
 		BB46F6E223ACF03800927EE2 /* BuluttanBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB46F6E123ACF03800927EE2 /* BuluttanBackgroundView.swift */; };
+		BB46F6E423AE27B200927EE2 /* TopNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB46F6E323AE27B200927EE2 /* TopNavigationBarView.swift */; };
 		BBC12D7923A78F110051415C /* DarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC12D7823A78F110051415C /* DarkView.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		BB00492E239D33B700D404AD /* swift_weather_uiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_weather_uiUITests.swift; sourceTree = "<group>"; };
 		BB004930239D33B700D404AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB46F6E123ACF03800927EE2 /* BuluttanBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuluttanBackgroundView.swift; sourceTree = "<group>"; };
+		BB46F6E323AE27B200927EE2 /* TopNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationBarView.swift; sourceTree = "<group>"; };
 		BBC12D7823A78F110051415C /* DarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +146,7 @@
 			children = (
 				BB46F6E123ACF03800927EE2 /* BuluttanBackgroundView.swift */,
 				BB004910239D33B400D404AD /* CurrentObservationView.swift */,
+				BB46F6E323AE27B200927EE2 /* TopNavigationBarView.swift */,
 			);
 			path = "Reusable Views";
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB00490D239D33B400D404AD /* AppDelegate.swift in Sources */,
+				BB46F6E423AE27B200927EE2 /* TopNavigationBarView.swift in Sources */,
 				BB00490F239D33B400D404AD /* SceneDelegate.swift in Sources */,
 				BBC12D7923A78F110051415C /* DarkView.swift in Sources */,
 				BB004911239D33B400D404AD /* CurrentObservationView.swift in Sources */,
