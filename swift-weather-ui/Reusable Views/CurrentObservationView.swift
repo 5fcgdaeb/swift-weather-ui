@@ -13,7 +13,7 @@ struct CurrentObservationView: View {
 	let currentTemperature: Float = 1.4
 	let dailyMaxTemperature: Float = 5.2
 	let dailyMinTemperature: Float = -2.8
-	let feelsLikeText = "Feels like -3"
+	let feelsLikeText = "Feels like -3°"
 	let currentConditionsText = "Slightly Windy"
 	let currentConditionsImageName = "MostlySunny"
 
@@ -26,10 +26,10 @@ struct CurrentObservationView: View {
 
 			VStack {
 				HStack {
-					Text(String(format: "%.f", self.currentTemperature))
+					Text(String(format: "%.f°", self.currentTemperature))
 						.font(Font.largeTitle)
 						.fontWeight(.bold)
-					Text(String(format: "%.f / %.f", self.dailyMaxTemperature, self.dailyMinTemperature))
+					Text(String(format: "%.f° / %.f°", self.dailyMaxTemperature, self.dailyMinTemperature))
 				}
 				Text(self.feelsLikeText)
 					.padding([.bottom], 5)
