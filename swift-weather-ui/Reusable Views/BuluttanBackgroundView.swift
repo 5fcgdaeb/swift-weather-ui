@@ -25,23 +25,28 @@ struct BuluttanBackgroundView_Previews: PreviewProvider {
 
 			// Regular
 			BuluttanBackgroundView()
+                .previewDisplayName("Simple")
 
 			// Regular on SE
 			BuluttanBackgroundView()
 				.previewDevice("iPhone SE")
+                .previewDisplayName("iPhone SE")
 
 			// Dark
 			BuluttanBackgroundView()
 				.environment(\.colorScheme, .dark)
 				.darkModeFix()
+                .previewDisplayName("Dark mode")
 
 			// XS
 			BuluttanBackgroundView()
 				.environment(\.sizeCategory, .extraSmall)
+                .previewDisplayName("XS Fonts")
 
 			// XXL
 			BuluttanBackgroundView()
 				.environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
+                .previewDisplayName("XXXXL Fonts")
 		}
     }
 }
