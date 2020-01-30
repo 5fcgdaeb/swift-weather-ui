@@ -20,24 +20,29 @@ struct TopNavigationBarView_Previews: PreviewProvider {
 		Group {
 
 			// Regular
-			TopNavigationBarView()
+            TopNavigationBarView()
+                .previewDisplayName("Simple")
 
-			// Regular on SE
-			TopNavigationBarView()
-				.previewDevice("iPhone SE")
+            // Regular on SE
+            TopNavigationBarView()
+                .previewDevice("iPhone SE")
+                .previewDisplayName("iPhone SE")
 
-			// Dark
-			TopNavigationBarView()
-				.environment(\.colorScheme, .dark)
-				.darkModeFix()
+            // Dark
+            TopNavigationBarView()
+                .environment(\.colorScheme, .dark)
+                .darkModeFix()
+                .previewDisplayName("Dark mode")
 
-			// XS
-			TopNavigationBarView()
-				.environment(\.sizeCategory, .extraSmall)
+            // XS
+            TopNavigationBarView()
+                .environment(\.sizeCategory, .extraSmall)
+                .previewDisplayName("XS Fonts")
 
-			// XXL
-			TopNavigationBarView()
-				.environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
+            // XXL
+            TopNavigationBarView()
+                .environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
+                .previewDisplayName("XXXXL Fonts")
 		}
     }
 }

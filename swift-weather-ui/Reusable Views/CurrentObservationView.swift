@@ -45,24 +45,29 @@ struct ContentView_Previews: PreviewProvider {
 		Group {
 
 			// Regular
-			CurrentObservationView()
+            CurrentObservationView()
+                .previewDisplayName("Simple")
 
-			// Regular on SE
-			CurrentObservationView()
-				.previewDevice("iPhone SE")
+            // Regular on SE
+            CurrentObservationView()
+                .previewDevice("iPhone SE")
+                .previewDisplayName("iPhone SE")
 
-			// Dark
-			CurrentObservationView()
-				.environment(\.colorScheme, .dark)
-				.darkModeFix()
+            // Dark
+            CurrentObservationView()
+                .environment(\.colorScheme, .dark)
+                .darkModeFix()
+                .previewDisplayName("Dark mode")
 
-			// XS
-			CurrentObservationView()
-				.environment(\.sizeCategory, .extraSmall)
+            // XS
+            CurrentObservationView()
+                .environment(\.sizeCategory, .extraSmall)
+                .previewDisplayName("XS Fonts")
 
-			// XXL
-			CurrentObservationView()
-				.environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
+            // XXL
+            CurrentObservationView()
+                .environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
+                .previewDisplayName("XXXXL Fonts")
 		}
     }
 }
