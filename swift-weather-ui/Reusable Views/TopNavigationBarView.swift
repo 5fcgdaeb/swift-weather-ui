@@ -33,6 +33,11 @@ struct TopNavigationBarView_Previews: PreviewProvider {
     static var previews: some View {
 		Group {
 
+            // Pure View
+            TopNavigationBarView()
+                .previewDisplayName("Pure")
+                .previewLayout(.sizeThatFits)
+            
 			// Regular
             TopNavigationBarView()
                 .previewDisplayName("Simple")

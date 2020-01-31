@@ -23,6 +23,11 @@ struct BuluttanBackgroundView_Previews: PreviewProvider {
     static var previews: some View {
 		Group {
 
+            // Pure View
+            BuluttanBackgroundView()
+                .previewDisplayName("Pure")
+                .previewLayout(.sizeThatFits)
+            
 			// Regular
 			BuluttanBackgroundView()
                 .previewDisplayName("Simple")

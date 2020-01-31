@@ -44,6 +44,11 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
 		Group {
 
+            // Pure View
+            CurrentObservationView()
+                .previewDisplayName("Pure")
+                .previewLayout(.sizeThatFits)
+            
 			// Regular
             CurrentObservationView()
                 .previewDisplayName("Simple")
