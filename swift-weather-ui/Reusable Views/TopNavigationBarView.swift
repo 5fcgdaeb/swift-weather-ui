@@ -15,6 +15,8 @@ struct TopNavigationBarView: View {
                 Image("Location")
             }
             Text("Suadiye - Kadikoy")
+                .lineLimit(1)
+            Spacer()
             Button(action: {}) {
                 Image("LiveMap")
             }
@@ -22,6 +24,7 @@ struct TopNavigationBarView: View {
                 Image("Settings")
             }
         }
+        .padding()
     }
 }
 
