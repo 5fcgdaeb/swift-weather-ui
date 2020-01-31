@@ -10,7 +10,18 @@ import SwiftUI
 
 struct TopNavigationBarView: View {
     var body: some View {
-		Text("Hello")
+        HStack(alignment: .center, spacing: 10.0) {
+            Button(action: {}) {
+                Image("Location")
+            }
+            Text("Suadiye - Kadikoy")
+            Button(action: {}) {
+                Image("LiveMap")
+            }
+            Button(action: {}) {
+                Image("Settings")
+            }
+        }
     }
 }
 
