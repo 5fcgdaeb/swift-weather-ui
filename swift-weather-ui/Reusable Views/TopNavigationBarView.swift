@@ -30,36 +30,40 @@ struct TopNavigationBarView: View {
 
 struct TopNavigationBarView_Previews: PreviewProvider {
 
+    static var theViewUnderPreview: some View {
+        TopNavigationBarView()
+    }
+    
     static var previews: some View {
 		Group {
 
             // Pure View
-            TopNavigationBarView()
+            theViewUnderPreview
                 .previewDisplayName("Pure")
                 .previewLayout(.sizeThatFits)
             
 			// Regular
-            TopNavigationBarView()
+            theViewUnderPreview
                 .previewDisplayName("Simple")
 
             // Regular on SE
-            TopNavigationBarView()
+            theViewUnderPreview
                 .previewDevice("iPhone SE")
                 .previewDisplayName("iPhone SE")
 
             // Dark
-            TopNavigationBarView()
+            theViewUnderPreview
                 .environment(\.colorScheme, .dark)
                 .darkModeFix()
                 .previewDisplayName("Dark mode")
 
             // XS
-            TopNavigationBarView()
+            theViewUnderPreview
                 .environment(\.sizeCategory, .extraSmall)
                 .previewDisplayName("XS Fonts")
 
             // XXL
-            TopNavigationBarView()
+            theViewUnderPreview
                 .environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
                 .previewDisplayName("XXXXL Fonts")
 		}

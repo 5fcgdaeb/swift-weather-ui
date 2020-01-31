@@ -20,36 +20,40 @@ struct BuluttanBackgroundView: View {
 
 struct BuluttanBackgroundView_Previews: PreviewProvider {
 
+    static var theViewUnderPreview: some View {
+        BuluttanBackgroundView()
+    }
+    
     static var previews: some View {
 		Group {
 
             // Pure View
-            BuluttanBackgroundView()
+            theViewUnderPreview
                 .previewDisplayName("Pure")
                 .previewLayout(.sizeThatFits)
             
 			// Regular
-			BuluttanBackgroundView()
+			theViewUnderPreview
                 .previewDisplayName("Simple")
 
 			// Regular on SE
-			BuluttanBackgroundView()
+			theViewUnderPreview
 				.previewDevice("iPhone SE")
                 .previewDisplayName("iPhone SE")
 
 			// Dark
-			BuluttanBackgroundView()
+			theViewUnderPreview
 				.environment(\.colorScheme, .dark)
 				.darkModeFix()
                 .previewDisplayName("Dark mode")
 
 			// XS
-			BuluttanBackgroundView()
+			theViewUnderPreview
 				.environment(\.sizeCategory, .extraSmall)
                 .previewDisplayName("XS Fonts")
 
 			// XXL
-			BuluttanBackgroundView()
+			theViewUnderPreview
 				.environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
                 .previewDisplayName("XXXXL Fonts")
 		}
