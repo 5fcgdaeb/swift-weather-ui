@@ -8,41 +8,40 @@
 
 import SwiftUI
 
-struct PreviewGroupProvider {
+struct PreviewGroupProvider<XX: View> {
 
-//    static func theGroup(theViewUnderPreview: some View) -> some View {
-//        return Group {
-//
-//            // Pure View
-//            theViewUnderPreview
-//                .previewDisplayName("Pure")
-//                .previewLayout(.sizeThatFits)
-//            
-//            // Regular
-//            theViewUnderPreview
-//                .previewDisplayName("Simple")
-//
-//            // Regular on SE
-//            theViewUnderPreview
-//                .previewDevice("iPhone SE")
-//                .previewDisplayName("iPhone SE")
-//
-//            // Dark
-//            theViewUnderPreview
-//                .environment(\.colorScheme, .dark)
-//                .darkModeFix()
-//                .previewDisplayName("Dark mode")
-//
-//            // XS
-//            theViewUnderPreview
-//                .environment(\.sizeCategory, .extraSmall)
-//                .previewDisplayName("XS Fonts")
-//
-//            // XXL
-//            theViewUnderPreview
-//                .environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
-//                .previewDisplayName("XXXXL Fonts")
-//        }
-//    }
+    static func a(x: XX) -> some View {
+        return Group {
+                        // Pure View
+                        x
+                            .previewDisplayName("Pure")
+                            .previewLayout(.sizeThatFits)
+            
+                        // Regular
+                        x
+                            .previewDisplayName("Simple")
+            
+                        // Regular on SE
+                        x
+                            .previewDevice("iPhone SE")
+                            .previewDisplayName("iPhone SE")
+            
+                        // Dark
+                        x
+                            .environment(\.colorScheme, .dark)
+                            .darkModeFix()
+                            .previewDisplayName("Dark mode")
+            
+                        // XS
+                        x
+                            .environment(\.sizeCategory, .extraSmall)
+                            .previewDisplayName("XS Fonts")
+            
+                        // XXL
+                        x
+                            .environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
+                            .previewDisplayName("XXXXL Fonts")
+                    }
+    }
     
 }

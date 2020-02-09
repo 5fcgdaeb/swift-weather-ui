@@ -110,8 +110,8 @@
 				BB00490C239D33B400D404AD /* AppDelegate.swift */,
 				BB00490E239D33B400D404AD /* SceneDelegate.swift */,
 				BBBA65C623A50B3C00CB0A81 /* Reusable Views */,
-				BB004914239D33B700D404AD /* Preview Content */,
 				BBC12D7723A78EF10051415C /* Utilities */,
+				BB004914239D33B700D404AD /* Preview Content */,
 				BBBA65C723A50B4D00CB0A81 /* Config and Resources */,
 			);
 			path = "swift-weather-ui";
