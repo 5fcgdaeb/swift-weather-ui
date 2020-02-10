@@ -43,6 +43,11 @@ struct PreviewGroupFactory<T: View> {
             view
             .environment(\.sizeCategory,.accessibilityExtraExtraExtraLarge)
             .previewDisplayName("XXXXL Fonts")
+            
+            // Right to Left
+            view
+            .environment(\.layoutDirection, .rightToLeft)
+            .previewDisplayName("Right to Left")
         }
     }
 }
