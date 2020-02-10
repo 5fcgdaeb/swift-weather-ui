@@ -47,7 +47,7 @@ struct PreviewGroupFactory<T: View> {
     }
 }
 
-// - Dark Mode Fix (Necessary for XCode 11.3.1, might be obsolete later)
+// MARK: Dark Mode Fix (Necessary for XCode 11.3.1 or before, might be obsolete later)
 
 public struct DarkView<Content> : View where Content : View {
     var darkContent: Content
