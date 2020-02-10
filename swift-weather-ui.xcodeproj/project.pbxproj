@@ -17,7 +17,7 @@
 		BB00492F239D33B700D404AD /* swift_weather_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB00492E239D33B700D404AD /* swift_weather_uiUITests.swift */; };
 		BB46F6E223ACF03800927EE2 /* BuluttanBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB46F6E123ACF03800927EE2 /* BuluttanBackgroundView.swift */; };
 		BB46F6E423AE27B200927EE2 /* TopNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB46F6E323AE27B200927EE2 /* TopNavigationBarView.swift */; };
-		BBFC601123E4CC6D0028873B /* PreviewGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFC601023E4CC6D0028873B /* PreviewGroup.swift */; };
+		BBFC601123E4CC6D0028873B /* PreviewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFC601023E4CC6D0028873B /* PreviewFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		BB004930239D33B700D404AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB46F6E123ACF03800927EE2 /* BuluttanBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuluttanBackgroundView.swift; sourceTree = "<group>"; };
 		BB46F6E323AE27B200927EE2 /* TopNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationBarView.swift; sourceTree = "<group>"; };
-		BBFC601023E4CC6D0028873B /* PreviewGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewGroup.swift; sourceTree = "<group>"; };
+		BBFC601023E4CC6D0028873B /* PreviewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,7 +164,7 @@
 		BBC12D7723A78EF10051415C /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				BBFC601023E4CC6D0028873B /* PreviewGroup.swift */,
+				BBFC601023E4CC6D0028873B /* PreviewFactory.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -305,7 +305,7 @@
 				BB00490F239D33B400D404AD /* SceneDelegate.swift in Sources */,
 				BB004911239D33B400D404AD /* CurrentObservationView.swift in Sources */,
 				BB46F6E223ACF03800927EE2 /* BuluttanBackgroundView.swift in Sources */,
-				BBFC601123E4CC6D0028873B /* PreviewGroup.swift in Sources */,
+				BBFC601123E4CC6D0028873B /* PreviewFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

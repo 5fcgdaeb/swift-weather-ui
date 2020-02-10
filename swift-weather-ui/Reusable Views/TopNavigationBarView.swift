@@ -32,6 +32,6 @@ struct TopNavigationBarView: View {
 struct TopNavigationBarView_Previews: PreviewProvider {
 
     static var previews: some View {
-        PreviewGroupFactory.previews(forView: TopNavigationBarView())
+        PreviewFactory.previews(forView: TopNavigationBarView())
     }
 }

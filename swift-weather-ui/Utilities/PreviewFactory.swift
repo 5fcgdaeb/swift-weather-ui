@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct PreviewGroupFactory<T: View> {
+struct PreviewFactory<T: View> {
 
     static func previews(forView view: T) -> some View {
         

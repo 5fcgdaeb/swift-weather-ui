@@ -21,7 +21,7 @@ struct BuluttanBackgroundView: View {
 struct BuluttanBackgroundView_Previews: PreviewProvider {
 
     static var previews: some View {
-        PreviewGroupFactory.previews(forView: BuluttanBackgroundView())
+        PreviewFactory.previews(forView: BuluttanBackgroundView())
     }
 }
 
