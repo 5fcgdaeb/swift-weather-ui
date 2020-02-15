@@ -12,7 +12,13 @@ struct MainWeatherView: View {
     var body: some View {
         ZStack {
             BuluttanBackgroundView()
-            CurrentObservationView()
+            VStack(alignment: .center, spacing: 20.0) {
+                TopNavigationBarView()
+                Spacer()
+                CurrentObservationView()
+                Spacer()
+            }
+            
         }
     }
 }
