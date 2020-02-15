@@ -29,11 +29,15 @@ struct CurrentObservationView: View {
 					Text(String(format: "%.f°", self.currentTemperature))
 						.font(Font.largeTitle)
 						.fontWeight(.bold)
+                        .foregroundColor(.white)
 					Text(String(format: "%.f° / %.f°", self.dailyMaxTemperature, self.dailyMinTemperature))
+                    .foregroundColor(.white)
 				}
 				Text(self.feelsLikeText)
 					.padding([.bottom], 5)
+                    .foregroundColor(.white)
 				Text(self.currentConditionsText)
+                    .foregroundColor(.white)
 			}
 		}
     }

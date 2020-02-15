@@ -17,6 +17,7 @@ struct TopNavigationBarView: View {
             }
             Text("Suadiye - Kadikoy")
                 .lineLimit(1)
+                .foregroundColor(.white)
             Spacer()
             Button(action: {}) {
                 Image("LiveMap")
